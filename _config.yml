@@ -1,3 +1,4 @@
-theme: jekyll-theme-cayman
+theme: jekyll-theme-minimal
 title: Octopus Energy Watchdog
 description: Documentation
+logo: /octologo.png
