@@ -17,7 +17,7 @@ The app does use third party services that may collect information used to ident
 Link to privacy policies of third party service providers used by the app
 
 - [Google Analytics for Firebase](https://firebase.google.com/policies/analytics)
-- [Firebase Crashlytics](https://firebase.google.com/terms/crashlytics)
+- [Firebase Crashlytics](https://policies.google.com/privacy)
 
 **Log Data**
 
