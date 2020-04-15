@@ -1,6 +1,6 @@
 ## Privacy Policy
 
-Max Sanna built the Octopus Energy Watchdog app as a Free app. This SERVICE is provided by Max Sanna at no cost and is intended for use as is.
+Max Sanna built the Octopus Energy Watchdog app as a commercial app. This SERVICE is provided by Max Sanna at the face value cost published in the app store and is intended for use as is.
 
 This page is used to inform visitors regarding my policies with the collection, use, and disclosure of Personal Information if anyone decided to use my Service.
 
