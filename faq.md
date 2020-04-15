@@ -1,4 +1,4 @@
-# Troubleshooting FAQ
+# Octopus Watchdog Troubleshooting FAQ
 
 _This page was last updated on 15/4/2020_
 
