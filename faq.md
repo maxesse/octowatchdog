@@ -1,3 +1,5 @@
+# Troubleshooting FAQ
+
 _This page was last updated on 15/4/2020_
 
 The purpose of this page is to help you resolve common issues you may experience.
