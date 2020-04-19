@@ -4,6 +4,13 @@ _This page was last updated on 15/4/2020_
 
 The purpose of this page is to help you resolve common issues you may experience.
 
+## Why the Octopus dashboard is showing more data than the app is?
+
+Octopus Energy Watchdog will only display full days. That is, days with 48 data points, one for each half hour of the day. It also keeps into account when we change the clock, so days with 46 and 50 data points are allowed.
+Unfortunately sometimes when there are glitches in the Octopus backend, some days may have 47 data points, or less. The app will NOT display them until they are complete sets. This helps you quickly spot missing data, and to raise it with Octopus.
+
+This also means that if the API sends several lines of consumption for today (usually the early hours of the day), you will see them in the dashboard, but the app won't display them until tomorrow, when the full 48 datapoints will have been released. This is done in the interest of keeping data tidy and comparable, rather than publishing incomplete days.
+
 ## Why can't I get gas costs?
 
 The Octopus Energy API doesn't provide a way to correlate a user with its own meters, the products and local tariffs used by said meter. For electricity it's fairly easy to find out by scraping the dev page, but for gas it isn't. You won't find the correct product names as displayed in the API on the bill, or anywhere. Because of how obscure and difficult these details are to obtain, the feature was left out, as it would raise more questions than answers.
