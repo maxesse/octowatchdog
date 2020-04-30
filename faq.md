@@ -50,3 +50,8 @@ I'm planning to improve the code in future with a routine to go and backfill mis
 It was recently brought to my attention that SMETS1 meters send consumption in kWh, while SMETS2 meters send it in cubic metres. The API just pushes numbers without specifying what you're getting. To provide some mitigation to this, if you know what are you getting back from the API, you can set a custom gas multiplier in the More section.
 For example, if you're sure you have a SMETS2 meter and you're getting consumption in cubic meters, you can convert it to kWh by entering a multiplier in the settings. This value tends to hover between 11.18 and 11.22, depending on where you live, the type of gas and many other parameters.
 You may be able to find this coefficient by tinkering with your meter interface, or by checking the Octopus bill.
+
+## When performing a full refresh, or logging in, the app seems slower than it used to be
+
+You're right! Many customers requested to be able to store 60 days worth of data in the app, to help when performing comparisons with the bill. You will notice this if you use the Export CSV function. That said, to avoid cluttering up the interface it still displays only the last 30 days.
+In normal usage scenarios, the app will only request the delta between the last time it was opened and the current date, so it won't be any slower than normal once the login has been performed.
